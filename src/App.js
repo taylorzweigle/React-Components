@@ -1,11 +1,11 @@
 import React from "react";
 
-import DateSelect from "./components/dateSelect";
+import MonthSelect from "./components/monthSelect";
 
 import "./App.css";
 
 function App() {
-  return <DateSelect />;
+  return <MonthSelect />;
 }
 
 export default App;

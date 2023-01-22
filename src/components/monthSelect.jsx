@@ -7,7 +7,7 @@ import { formatMonth } from "../utility/formatMonth";
 
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 
-const DateSelect = () => {
+const MonthSelect = () => {
   let [value, setValue] = useState({
     month: "January",
     day: "1",
@@ -65,7 +65,7 @@ const DateSelect = () => {
   return (
     <>
       <Select
-        label={"Date"}
+        label={"Month"}
         value={value}
         width={"256px"}
         icon={<CalendarTodayIcon />}
@@ -85,4 +85,4 @@ const DateSelect = () => {
   );
 };
 
-export default DateSelect;
+export default MonthSelect;

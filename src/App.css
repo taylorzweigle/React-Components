@@ -3,11 +3,13 @@
 html {
     font-family: Arial;
     user-select: none;
-  }
-  
-  /**********INTERNAL**********/
-  
-  .chip {
+    background-color: #efefef;
+    padding: 32px;
+}
+
+/**********INTERNAL**********/
+
+.chip {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,73 +18,74 @@ html {
     height: 32px;
     font-size: 1rem;
     cursor: pointer;
-  }
-  
-  .iconButton {
+}
+
+.iconButton {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 4px;
     border-radius: 100%;
     cursor: pointer;
-  }
-  
-  .iconButton:hover,
-  .iconButtonMini:hover {
-    background-color: #bcbcbc;
-  }
-  
-  .iconButtonIcon {
+}
+
+.iconButton:hover,
+.iconButtonMini:hover {
+    background-color: #dedede;
+}
+
+.iconButtonIcon {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     color: #333333;
-  }
-  
-  .menu {
+}
+
+.menu {
     padding: 16px;
+    background-color: #ffffff;
     box-shadow: 2px 2px 7px #cdcdcd;
     border-radius: 4px;
     width: 256px;
-  }
-  
-  .menuHeaderContainer {
+}
+
+.menuHeaderContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-  }
-  
-  .menuHeaderTitle {
+}
+
+.menuHeaderTitle {
     size: 1rem;
-  }
-  
-  .selectContainer {
+}
+
+.selectContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 12px 8px 12px;
-    background-color: #dedede;
-    border-bottom: 2px solid #ababab;
-  }
-  
-  .selectLabel {
+    background-color: #ffffff;
+    border: 2px solid #ababab;
+    border-radius: 6px;
+}
+
+.selectLabel {
     font-size: 0.75rem;
     color: #565656;
     padding: 0px 0px 2px 0px;
-  }
-  
-  .selectValue {
+}
+
+.selectValue {
     font-size: 1rem;
     color: #121212;
-  }
-  
-  /**********COMPONENTS**********/
-  
-  .menuRow {
+}
+
+/**********COMPONENTS**********/
+
+.menuRow {
     display: flex;
     justify-content: space-between;
     padding: 8px 0px;
-  }
-  
+}
