@@ -1,0 +1,88 @@
+/**********GLOBAL**********/
+
+html {
+    font-family: Arial;
+    user-select: none;
+  }
+  
+  /**********INTERNAL**********/
+  
+  .chip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width: 100%;
+    height: 32px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .iconButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  
+  .iconButton:hover,
+  .iconButtonMini:hover {
+    background-color: #bcbcbc;
+  }
+  
+  .iconButtonIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #333333;
+  }
+  
+  .menu {
+    padding: 16px;
+    box-shadow: 2px 2px 7px #cdcdcd;
+    border-radius: 4px;
+    width: 256px;
+  }
+  
+  .menuHeaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .menuHeaderTitle {
+    size: 1rem;
+  }
+  
+  .selectContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px 8px 12px;
+    background-color: #dedede;
+    border-bottom: 2px solid #ababab;
+  }
+  
+  .selectLabel {
+    font-size: 0.75rem;
+    color: #565656;
+    padding: 0px 0px 2px 0px;
+  }
+  
+  .selectValue {
+    font-size: 1rem;
+    color: #121212;
+  }
+  
+  /**********COMPONENTS**********/
+  
+  .menuRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+  }
+  
