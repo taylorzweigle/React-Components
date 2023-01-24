@@ -1,9 +1,10 @@
+//Taylor Zweigle, 2023
 import React, { useState } from "react";
 
-import MonthMenu from "./monthMenu";
-import YearMenu from "./yearMenu";
-import Select from "./internal/select";
-import { formatMonth } from "../utility/formatMonth";
+import MonthMenu from "../monthMenu/monthMenu";
+import YearMenu from "../yearMenu/yearMenu";
+import Select from "../select/select";
+import { formatMonth } from "../../utility/formatMonth";
 
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 

@@ -1,3 +1,4 @@
+//Taylor Zweigle, 2023
 import React from "react";
 
 const Chip = ({ value, selected, onChipClick }) => {

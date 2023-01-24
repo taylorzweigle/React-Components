@@ -1,6 +1,7 @@
+//Taylor Zweigle, 2023
 import React from "react";
 
-import MonthSelect from "./components/monthSelect";
+import MonthSelect from "./components/monthSelect/monthSelect";
 
 import "./App.css";
 

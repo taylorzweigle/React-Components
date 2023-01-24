@@ -1,3 +1,4 @@
+//Taylor Zweigle, 2023
 export const formatMonth = (month) => {
   switch (month) {
     case "Jan":

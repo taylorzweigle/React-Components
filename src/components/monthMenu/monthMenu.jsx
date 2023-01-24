@@ -1,9 +1,8 @@
+//Taylor Zweigle, 2023
 import React, { useState } from "react";
 
-import Chip from "./internal/chip";
-import MenuHeader from "./internal/menuHeader";
-
-import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import Chip from "../chip/chip";
+import Menu from "../menu/menu";
 
 const MonthMenu = ({ isVisible, onMonthMenuClick, onChipSelect }) => {
   let [months, setMonths] = useState([
@@ -51,15 +50,7 @@ const MonthMenu = ({ isVisible, onMonthMenuClick, onChipSelect }) => {
   };
 
   return (
-    <div
-      className="menu"
-      style={{ display: `${isVisible ? "block" : "none"}` }}
-    >
-      <MenuHeader
-        title={"Month"}
-        icon={<ArrowDropDownIcon />}
-        onMenuHeaderClick={onMonthMenuClick}
-      />
+    <Menu isVisible={isVisible} onMenuHeaderClick={onMonthMenuClick}>
       {months.map((row) => (
         <div className="menuRow">
           {row.map((month) => (
@@ -72,7 +63,7 @@ const MonthMenu = ({ isVisible, onMonthMenuClick, onChipSelect }) => {
           ))}
         </div>
       ))}
-    </div>
+    </Menu>
   );
 };
 

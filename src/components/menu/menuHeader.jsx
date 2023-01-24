@@ -1,6 +1,7 @@
+//Taylor Zweigle, 2023
 import React from "react";
 
-import IconButton from "./iconButton";
+import IconButton from "../iconButton/iconButton";
 
 const MenuHeader = ({ title, icon, onMenuHeaderClick }) => {
   return (

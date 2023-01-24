@@ -1,3 +1,7 @@
+/**************************/
+/***Taylor Zweigle, 2023***/
+/**************************/
+
 /**********GLOBAL**********/
 
 html {
@@ -87,5 +91,5 @@ html {
 .menuRow {
     display: flex;
     justify-content: space-between;
-    padding: 8px 0px;
+    padding: 8px 0px 0px 0px;
 }
